@@ -2,7 +2,7 @@
 
 This repository trains mixture-of-experts (MoE) models on multi-atlas brain structural/functional connectivity from ADNI subjects to study Mild Cognitive Impairment (MCI). 
 
-![Multi-Atlas MoE overview](Model/MultiAtlas.pdf)
+![Multi-Atlas MoE overview](Model/MultiAtlas.png)
 
 ## Getting Started
 
