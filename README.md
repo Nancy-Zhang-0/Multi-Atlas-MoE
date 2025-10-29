@@ -22,7 +22,7 @@ This repository trains mixture-of-experts (MoE) models on multi-atlas brain conn
 
 ## Usage
 
-### Graph MoE (5-fold CV)
+### Training
 ```bash
 python train_moe_gcn.py \
   --train-json ADNI_train_no_mmse_clean_complete.json \
