@@ -63,7 +63,6 @@ def prepare_adjacency(adj: torch.Tensor) -> torch.Tensor:
     Symmetrize structural connectivity matrices and ensure self-loops.
     """
     adj = torch.relu(adj)
-    adj = 0.5 * (adj + adj.transpose(1, 2))
     eye = torch.eye(adj.size(-1), device=adj.device, dtype=adj.dtype).unsqueeze(0)
     adj = adj + eye
     return adj
